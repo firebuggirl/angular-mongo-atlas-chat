@@ -58,3 +58,11 @@ http://mongoosejs.com/docs/populate.html
       - ` brew upgrade mongodb `//upgrade if older version already installed
 
       - versions are stored in ` /usr/local/Cellar/mongodb `
+
+
+## To Do:
+
+Work on Handling errors:
+
+
+    - https://www.udemy.com/angular-2-and-nodejs-the-practical-guide/learn/v4/t/lecture/10554058?start=0
