@@ -98,6 +98,17 @@ https://material.angular.io/components/dialog/overview
         - add `MAT_DIALOG_DATA` to `ErrorComponent` to display error dialog box via frontend
 
         - /add custom error messages via backend. EX: See `routes/user.js` for messages
+
+
+## SNYK test for vulnerabilities:
+
+https://snyk.io/docs/using-snyk/?utm_campaign=docs&utm_medium=github&utm_source=full_docs
+
+        - ` npm i snyk --save `
+
+        - ` snyk test `
+
+        - Run ` snyk wizard ` to explore remediation options
 ## To Do:
 
 Work on Handling errors:
