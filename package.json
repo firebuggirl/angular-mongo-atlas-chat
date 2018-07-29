@@ -2,8 +2,8 @@
   "name": "angular-mongo-atlas-chat",
   "version": "0.0.0",
   "engines": {
-  "node": ">= 8.9.0"
-},
+    "node": ">= 8.9.0"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

@@ -40,6 +40,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
         ` npm run start:server `
 
+            - backend uri -> ` http://localhost:3000/api/posts `
+
       - Run frontend in another shell:
 
         ` ng serve `
@@ -59,7 +61,43 @@ http://mongoosejs.com/docs/populate.html
 
       - versions are stored in ` /usr/local/Cellar/mongodb `
 
+## Connect with MongoDB Cluster
 
+https://cloud.mongodb.com
+
+- create Cluster
+
+- -> `Security` -> `MongoDb Users` -> `Add user ` -> `read/write/any/DB`
+
+- -> `IP Whitelest` local machine .....may need to be refreshed every couple of days
+
+
+
+## SPA Authentication
+
+https://www.udemy.com/angular-2-and-nodejs-the-practical-guide/learn/v4/t/lecture/10536930?start=0
+
+- JWT
+https://jwt.io/introduction/
+
+- Angular Interceptors info:
+
+  -  https://angular.io/guide/http#intercepting-requests-and-responses
+
+
+
+## Auth Interceptor
+
+      - used to intercept all outgoing requests + add auth header
+
+
+## Error Interceptor
+
+https://material.angular.io/components/dialog/overview
+
+        - add `MAT_DIALOG_DATA` to `ErrorComponent` to display error dialog box via frontend
+
+        - /add custom error messages via backend. EX: See `routes/user.js` for messages
 ## To Do:
 
 Work on Handling errors:

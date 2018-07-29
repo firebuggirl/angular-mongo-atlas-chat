@@ -11,7 +11,7 @@ import {
   MatExpansionModule,
   MatProgressSpinnerModule,
   MatPaginatorModule,
-  MatDialogModule //can be used to open modal dialogs with Material Design styling and animations
+  MatDialogModule //can be used to open modal dialogs with Material Design styling and animations.
 } from "@angular/material";
 
 import { AppComponent } from "./app.component";
@@ -51,8 +51,8 @@ import { ErrorInterceptor } from "./error-interceptor";
     HttpClientModule,
     MatDialogModule
   ],
-  providers: [
-    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true },
+  providers: [//add Authorization to list of accepted headers via backend/app.js
+    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true },//don't override existing headers...just add additional header instead
     { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true }
   ],
   bootstrap: [AppComponent],
