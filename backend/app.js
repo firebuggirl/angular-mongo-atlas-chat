@@ -12,7 +12,8 @@ const app = express();
 //Uncaught Error: cyclic dependency detected
 //at serializeObject (node_modules/bson/lib/bson/parser/serializer.js
 mongoose
-  .connect( process.env.MONGO_DB_ATLAS_CLUSTER_CONNECTION_STRING )//retryWrites=true works after initially connecting???
+  .connect( process.env.LOCAL_DB )//retryWrites=true works after initially connecting???
+  //.connect( process.env.MONGO_DB_ATLAS_CLUSTER_CONNECTION_STRING )//retryWrites=true works after initially connecting???
   //.connect( process.env.MONGO_DB_ATLAS_CONNECT )//connect w/out uri options...causing error in 3.6
   .then(() => {
     console.log("Connected to database!");

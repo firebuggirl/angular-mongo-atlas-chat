@@ -34,17 +34,19 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
       - Use nvm package manager before starting/running project:
 
-        ` nvm use 8.9 `
+        ` nvm use 10.14 `
 
       - Run backend in one shell:
 
-        ` npm run start:server `
+        ` npm run start:server
+        `
 
             - backend uri -> ` http://localhost:3000/api/posts `
 
       - Run frontend in another shell:
 
-        ` ng serve `
+        ` ng serve
+        `
 
 ## Info on Mongoose populate
 
@@ -109,6 +111,11 @@ https://snyk.io/docs/using-snyk/?utm_campaign=docs&utm_medium=github&utm_source=
         - ` snyk test `
 
         - Run ` snyk wizard ` to explore remediation options
+
+        - OR
+
+        ` npm audit fix
+        `
 ## To Do:
 
 Work on Handling errors:
