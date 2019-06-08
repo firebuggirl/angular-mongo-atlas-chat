@@ -26,3 +26,10 @@
 
   ` npm audit fix
   `
+
+# Identify which packages use which dependencies
+
+  - EX:
+
+      ` npm ls adm-zip
+      `
