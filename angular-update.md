@@ -18,3 +18,11 @@
 
   ` npm update
   `
+
+# Check for Vulnerabilities:
+
+  ` npm audit
+  `
+
+  ` npm audit fix
+  `
