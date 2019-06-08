@@ -7,6 +7,10 @@
 @import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
 /* @import '~@angular/material/prebuilt-themes/purple-green.css'; */
 
+
+
+
+
 body {
   margin: 0;
   background-color: #1a1210;
@@ -21,4 +25,8 @@ body {
 .mat-expansion-panel, .mat-paginator-container {
 	color: #fff;
 	border: 3px solid #c0b8b8;
+}
+
+.info-text{
+  color: beige;
 }

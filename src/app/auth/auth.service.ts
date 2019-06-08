@@ -41,7 +41,7 @@ export class AuthService {
         this.authStatusListener.next(false);
       });
   }
-  
+
 
   login(email: string, password: string) {
     const authData: AuthData = { email: email, password: password };
