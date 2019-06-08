@@ -33,3 +33,7 @@
 
       ` npm ls adm-zip
       `
+      https://docs.npmjs.com/cli/ls
+
+
+      
