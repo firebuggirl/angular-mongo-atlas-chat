@@ -1,20 +1,11 @@
 mat-form-field,
 textarea {
   width: 100%;
-
-}
-/* .mat-focused{
-  color: beige;
 }
 
-.mat-form-field, .ng-tns-c8-0, .mat-primary,
-.mat-form-field-type-mat-input, .mat-form-field-appearance-legacy,
-.mat-form-field-can-float, .mat-form-field-hide-placeholder,
-.ng-pristine, .ng-invalid, .mat-form-field-invalid, .ng-touched,
-.mat-spinner {
-  color: beige;
-} */
-
+mat-spinner {
+  margin: auto;
+}
 
 input[type="file"] {
   visibility: hidden;

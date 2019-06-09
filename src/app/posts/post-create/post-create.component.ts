@@ -8,13 +8,12 @@ import { Post } from "../post.model";
 import { mimeType } from "./mime-type.validator";
 import { AuthService } from "../../auth/auth.service";
 
-
 @Component({
   selector: "app-post-create",
   templateUrl: "./post-create.component.html",
   styleUrls: ["./post-create.component.css"]
 })
-export class PostCreateComponent implements OnInit {
+export class PostCreateComponent implements OnInit, OnDestroy {
   enteredTitle = "";
   enteredContent = "";
   post: Post;

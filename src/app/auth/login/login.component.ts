@@ -8,7 +8,7 @@ import { AuthService } from "../auth.service";
   templateUrl: "./login.component.html",
   styleUrls: ["./login.component.css"]
 })
-export class LoginComponent {
+export class LoginComponent implements OnInit, OnDestroy {
   isLoading = false;
   private authStatusSub: Subscription;
 
@@ -33,5 +33,4 @@ export class LoginComponent {
   ngOnDestroy() {
     this.authStatusSub.unsubscribe();
   }
-  
 }

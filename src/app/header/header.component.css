@@ -13,7 +13,6 @@ ul {
   display: flex;
 }
 
-/* create padding/space between MyMessages & New Post */
 .spacer {
   flex: 1 1 auto;
 }
