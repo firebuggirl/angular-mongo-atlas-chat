@@ -1,6 +1,7 @@
 # Update Angular
 
-- ` nvm use <node-version>`
+- ` nvm use <node-version>
+`
 
         - ` npm install @angular/cli@latest `
 

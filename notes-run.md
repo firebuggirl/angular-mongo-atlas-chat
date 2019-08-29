@@ -6,7 +6,7 @@
 
       - Use nvm package manager before starting/running project:
 
-        ` nvm use 10.14
+        ` nvm use 12
         `
 
       - Run backend in one shell:
