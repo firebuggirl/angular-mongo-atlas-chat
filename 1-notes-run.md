@@ -63,6 +63,8 @@ https://snyk.io/docs/using-snyk/?utm_campaign=docs&utm_medium=github&utm_source=
 
         - OR
 
+        ` npm audit `
+
         ` npm audit fix
         `
 ## To Do:

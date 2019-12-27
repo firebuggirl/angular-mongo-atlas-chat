@@ -30,7 +30,7 @@ https://www.udemy.com/angular-2-and-nodejs-the-practical-guide/learn/lecture/105
 
     - see branch `2-app-deploy`
 
-    - `AWS` => Elastic Beanstalk => sets up Node.js server => `create new application` => create `environment` => `web server environment` =>
+    - `AWS` => `Elastic Beanstalk` => sets up Node.js server => `create new application` => create `environment` => `web server environment` =>
 
         - platform => `Node.js`
 
@@ -56,7 +56,7 @@ https://www.udemy.com/angular-2-and-nodejs-the-practical-guide/learn/lecture/105
 
               - NOTE: Bcrypt will fail to compile => `npm i bcryptjs --save` (pre-compiles + adjust code
 
-             - NOTE: add Node API address of Node server to MongoDB Altlas `IP Whitelist` (Don't do in real production DB!!..create separate prod cluster)
+             - NOTE: add Node API address of Node server to MongoDB Atlas `IP Whitelist` (Don't do in real production DB!!..create separate prod cluster)
 
              - in EB console => actions => restart server
 
