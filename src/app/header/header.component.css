@@ -16,3 +16,11 @@ ul {
 .spacer {
   flex: 1 1 auto;
 }
+.mat-toolbar.mat-primary {
+	background: #6c0a0a;
+	color: #fff;
+}
+
+.mat-button.mat-accent, .mat-icon-button.mat-accent, .mat-stroked-button.mat-accent {
+	color: #f29848;
+}

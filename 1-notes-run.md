@@ -2,24 +2,21 @@
 
 ## Node as a backend REST API + Angular Material 6 as frontend
 
-  * Note: project will not work with Node versions < 8.9.0
+* Note: project will not work with Node versions < 8.9.0
 
       - Use nvm package manager before starting/running project:
 
-        ` nvm use 12
-        `
+        `nvm use 12`
 
       - Run backend in one shell:
 
-        ` npm run start:server
-        `
+        `npm run start:server`
 
-            - backend uri -> ` http://localhost:3000/api/posts `
+          - backend uri -> `http://localhost:3000/api/posts`
 
       - Run frontend in another shell:
 
-        ` ng serve
-        `
+        `ng serve`
 
 
 

@@ -1,32 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
-
-
-/* @import '~@angular/material/prebuilt-themes/deeppurple-amber.css'; */
-/* @import '~@angular/material/prebuilt-themes/indigo-pink.css'; */
-@import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
-/* @import '~@angular/material/prebuilt-themes/purple-green.css'; */
-
-
-
-
-
 body {
   margin: 0;
-  background-color: #1a1210;
- }
-
-
-.mat-toolbar.mat-primary {
- 	background: #770408;
- 	color: #fff;
-}
-
-.mat-expansion-panel, .mat-paginator-container {
-	color: #fff;
-	border: 3px solid #c0b8b8;
-}
-
-.info-text{
-  color: beige;
+  background-color: black;
 }
