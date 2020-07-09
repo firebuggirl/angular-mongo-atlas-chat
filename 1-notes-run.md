@@ -19,51 +19,45 @@
         `ng serve`
 
 
-
-
 ## SPA Authentication
 
 https://www.udemy.com/angular-2-and-nodejs-the-practical-guide/learn/v4/t/lecture/10536930?start=0
 
-- JWT
-https://jwt.io/introduction/
+- JWT => https://jwt.io/introduction/
 
 - Angular Interceptors info:
 
   -  https://angular.io/guide/http#intercepting-requests-and-responses
 
-
-
 ## Auth Interceptor
 
-      - used to intercept all outgoing requests + add auth header
-
+    - used to intercept all outgoing requests + add auth header
 
 ## Error Interceptor
 
 https://material.angular.io/components/dialog/overview
 
-        - add `MAT_DIALOG_DATA` to `ErrorComponent` to display error dialog box via frontend
+- add `MAT_DIALOG_DATA` to `ErrorComponent` to display error dialog box via frontend
 
-        - /add custom error messages via backend. EX: See `routes/user.js` for messages
+- /add custom error messages via backend. EX: See `routes/user.js` for messages
 
 
 ## SNYK test for vulnerabilities:
 
 https://snyk.io/docs/using-snyk/?utm_campaign=docs&utm_medium=github&utm_source=full_docs
 
-        - ` npm i snyk --save `
+    - `npm i snyk --save`
 
-        - ` snyk test `
+    - `snyk test`
 
-        - Run ` snyk wizard ` to explore remediation options
+    - Run `snyk wizard` to explore remediation options
 
-        - OR
+    - OR
 
-        ` npm audit `
+    - `npm audit`
 
-        ` npm audit fix
-        `
+    - `npm audit fix`
+    
 ## To Do:
 
 Work on Handling errors:

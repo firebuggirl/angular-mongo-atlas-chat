@@ -6,18 +6,15 @@
 
   `ng new <my-project-name>`
 
-  ` ng add @nguniversal/express-engine --clientProject <my-project-name>
-  `
+  `ng add @nguniversal/express-engine --clientProject <my-project-name>`
 
-  ` npm run build:ssr
-  `
+  `npm run build:ssr`
 
-  ` npm run serve:ssr
-  `
+  `npm run serve:ssr`
 
   https://angular.io/guide/universal
 
-  - NOTE:
+- NOTE:
 
       - for more info, see module in Angular 8 - The Complete Guide w/ Maximilian Schwarzmüller
 
