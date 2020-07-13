@@ -55,3 +55,10 @@
 
 
 ## Dec 27 - 2019 => npm audit fix
+
+## 7/13/2020 => Angular 10
+
+- `ng update @angular/cli @angular/core`//error => Repository is not clean
+
+- `ng update @angular/cli @angular/core --allow-dirty`
+

@@ -13,7 +13,7 @@ const app = express();
 //at serializeObject (node_modules/bson/lib/bson/parser/serializer.js
 mongoose
   //.connect( process.env.LOCAL_DB )//retryWrites=true works after initially connecting???
-  .connect( process.env.MONGO_DB_ATLAS )
+  .connect( process.env.MONGO_DB_ATLAS, { useNewUrlParser: true, useUnifiedTopology: true } )
   .then(() => {
     console.log("Connected to database!");
   })
