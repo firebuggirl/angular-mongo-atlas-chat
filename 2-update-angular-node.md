@@ -62,3 +62,14 @@
 
 - `ng update @angular/cli @angular/core --allow-dirty`
 
+### updates in v10:
+
+https://blog.angulartraining.com/whats-new-in-angular-10-be249ed2ac2
+
+- TypeScript 3.9, TSLib 2.0, & TS Lint v6
+
+- `date range picker` in Angular Material 10
+
+- Warnings when using CommonJS imports as they can result in both larger and slower applications.
+
+- Optional stricter settings => can create new projects with a strict flag w/ stricter listing rules, bundle sizes => more efficient tree-shaking (ie., dead code elimination).
